@@ -123,7 +123,7 @@
             -webkit-background-clip: text;
             background-clip: text;
             animation: textGradient 1.5s ease-in-out infinite;
-            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: sans-serif;
         }
         .social-icons a {
             font-size: 25px;
