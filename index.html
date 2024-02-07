@@ -14,7 +14,7 @@
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-sm navbar-dark fixed-top" id="header">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="header">
     <div class="container">
         <a class="navbar-brand" href="#"><span><i class="fa-solid fa-code mr-3"></i>HEMANDRA SINGH PANWAR</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
@@ -41,16 +41,16 @@
           </header>
         </div>
       </div>
-</nav>
+</nav> 
 
 <!-- Your content goes here -->
 <div id="header">
-    <div class="container">
+    <div class="container mt-5">
         <div class="header-text">
             <div>  
                 <div class="container mt-5 justify-content-center d-flex">
                     <div class="circular-image-container">
-                        <img src="./IMG_1024-removebg-preview.png"alt="Hemandar Singh" class="img-fluid">
+                        <img src="./IMG_1024-removebg-preview.png"alt="Hemandar Singh" class="img-fluid mt-1">
                         <div class="gradient-border"></div>
                     </div>
                 </div>
@@ -79,16 +79,16 @@
 <div class="container about-section">
     <div class="row">
         <div class="col-lg-4 col-md-12 mt-5">
-            <img src="./2.jpg" alt="Hemandar singh Panwar" class="img-fluid about-image">
+            <img src="./code.png" alt="Hemandar singh Panwar" class="img-fluid about-image mt-5">
         </div>
 
         <div class="col-lg-8 col-md-12" id="about">
-            <h2 class="about-heading mt-5 contact-heading">About Me</h2>
+            <h2 class="about-heading mt-5" class="portfolio-heading">About Me</h2>
             <p>
                 Hello! I'm <u>Hemandra Singh Panwar</u>, a passionate designer and developer with expertise in various technologies. I love transforming ideas into creative and functional solutions.
             </p>
 
-            <h3 class="skills-heading">Skills</h3>
+            <h3>Skills</h3>
             <div class="progress-wrapper">
                 <div class="progress mt-3">
                   <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">CSS</div>
@@ -110,9 +110,12 @@
     </div>
 </div>
 
+
+
+
 <div id="hobbies">
   <div class="container mt-5">
-      <h1 class="sub-title" id="Hobbies">My Hobbies</h1>
+      <h1 id="Hobbies" class="portfolio-heading">My Hobbies</h1>
       <div class="hobbies-list row">
           <div class="hobby-card cal-4">
               <i class="fas fa-camera"></i>
@@ -135,70 +138,69 @@
 
 
 
-        <div class="container " id="gallery">
-          <h2 class="mt-5 mb-4 text-center" id="hobbies">Gallery</h2>
-          <div class="row mt-5">
-            <div class="col-md-4">
-              <div class="one-image-container me-5">
-                <img src="./m1.JPG" alt="Hemandar Singh" class="img-fluid">
-                <div class="gradient-border"></div>
+    <!-- Gallery Section -->
+    <div class="container" id="gallery">
+      <h2 class="mt-5 mb-4 text-center portfolio-heading" id="hobbies">Gallery</h2>
+      <div class="row mt-5">
+          <div class="col-md-4">
+              <div class="gallery-item" data-toggle="modal" data-target="#imageModal1">
+                  <img src="./m1.JPG" alt="Image 1" class="img-fluid">
+                  <i class="fas fa-eye view-icon"></i>
               </div>
-            </div>
-            <div class="col-md-4">
-              <div class="one-image-container">
-                <img src="./m2.JPG" alt="Hemandar Singh" class="img-fluid">
-                <div class="gradient-border"></div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="one-image-container  me-5">
-                <img src="./m3.JPG" alt="Hemandar Singh" class="img-fluid">
-                <div class="gradient-border"></div>
-              </div>
-            </div>
           </div>
-        </div>
+          <div class="col-md-4">
+              <div class="gallery-item" data-toggle="modal" data-target="#imageModal2">
+                  <img src="./m2.JPG" alt="Image 2" class="img-fluid">
+                  <i class="fas fa-eye view-icon"></i>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="gallery-item" data-toggle="modal" data-target="#imageModal3">
+                  <img src="./m3.JPG" alt="Image 3" class="img-fluid">
+                  <i class="fas fa-eye view-icon"></i>
+              </div>
+          </div>
+      </div>
+  </div>
 
-        <div class="container">
-          <div class="row mt-5">
-            <div class="col-md-4">
-              <div class="one-image-container me-5">
-                <img src="./m7.JPG" alt="Hemandar Singh" class="img-fluid">
-                <div class="gradient-border"></div>
+  <!-- Modals -->
+  <div class="modal fade" id="imageModal1" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel1" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+              <div class="modal-body">
+                  <img src="./m1.JPG" alt="Image 1" class="img-fluid">
               </div>
-            </div>
-            <div class="col-md-4">
-              <div class="one-image-container">
-                <img src="./m5.JPG" alt="Hemandar Singh" class="img-fluid">
-                <div class="gradient-border"></div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="one-image-container  me-5">
-                <img src="./m6.JPG" alt="Hemandar Singh" class="img-fluid">
-                <div class="gradient-border"></div>
-              </div>
-            </div>
           </div>
-        </div>
+      </div>
+  </div>
 
-        <div class="container">
-          <div class="row mt-5">
-            <div class="col-md-12 ml-4">
-              <div class="one-image-container mx-auto">
-                <img src="./m9.JPG" alt="Hemandar Singh" class="img-fluid">
-                <div class="gradient-border"></div>
+  <div class="modal fade" id="imageModal2" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel2" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+              <div class="modal-body">
+                  <img src="./m2.JPG" alt="Image 2" class="img-fluid">
               </div>
-            </div>
           </div>
-        </div>
+      </div>
+  </div>
+
+  <div class="modal fade" id="imageModal3" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel3" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+              <div class="modal-body">
+                  <img src="./m3.JPG" alt="Image 3" class="img-fluid">
+              </div>
+          </div>
+      </div>
+  </div>
+
 
 
 
 
   <div id="portfolio">
     <div class="container">
-      <h1 class="sub-title">My Work</h1>
+      <h1 class="portfolio-heading">My Work</h1>
       <div class="work-list">
         <div class="work">
           <img src="./Screenshot (16).png" alt="">
@@ -213,7 +215,7 @@
             <div class="layout">
                 <h3>Culinary Delights Hub</h3>
                 <p>Indulge in our delectable food and restaurant website, highlighting mouthwatering visuals and a sophisticated cloud storage system driven by MongoDB with mongoose.</p>                
-              <a href="https://hemandrasingh.github.io/Photography/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+              <a href="https://hemandrasingh.github.io/restaurant-template/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
             </div>
           </div>
           <div class="work">
@@ -221,7 +223,7 @@
             <div class="layout">
                 <h3>Bike Enthusiast Hub</h3>
                 <p>Discover our thrilling bike-related website, showcasing adrenaline-pumping visuals and a cutting-edge cloud storage system supported by MongoDB with mongoose.</p>                
-              <a href="https://hemandrasingh.github.io/Photography/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+              <a href="https://hemandrasingh.github.io/bikewala/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
             </div>
           </div>
       </div>
@@ -231,7 +233,7 @@
 
   <div class="container">
     <div class="contact-section">
-      <h2 class="contact-heading" id="contact">Get In Touch</h2>
+      <h2 class="portfolio-heading" id="contact">Get In Touch</h2>
       <p>Feel free to reach out to me for any collaboration or inquiries. I'd love to hear from you!</p>
 
       <form class="contact-form">
@@ -249,7 +251,7 @@
     </div>
   </div>
     
-  <hr class="bg-danger mt-5">
+  <hr class="mt-5" style="background-color:#317773; height:1px;">
 
   <div class="footer">
     <div class="container text-center">
